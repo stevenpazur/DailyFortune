@@ -1,0 +1,1326 @@
+{
+  "fortunes": [
+    {
+      "id": 1,
+      "category": "sweet",
+      "text": "Today is filled with little moments that will remind you how wonderful life can be."
+    },
+    {
+      "id": 2,
+      "category": "hope",
+      "text": "A beautiful surprise may find you when you least expect it."
+    },
+    {
+      "id": 3,
+      "category": "sweet",
+      "text": "Your kindness leaves a brighter mark on the world than you realize."
+    },
+    {
+      "id": 4,
+      "category": "hope",
+      "text": "Tomorrow holds new possibilities waiting for you to discover them."
+    },
+    {
+      "id": 5,
+      "category": "love",
+      "text": "Someone is grateful for the happiness you bring into their life."
+    },
+    {
+      "id": 6,
+      "category": "success",
+      "text": "Every small step you take today brings you closer to something wonderful."
+    },
+    {
+      "id": 7,
+      "category": "sweet",
+      "text": "Your smile has the power to brighten even the ordinary moments."
+    },
+    {
+      "id": 8,
+      "category": "hope",
+      "text": "The path ahead is filled with opportunities you have not discovered yet."
+    },
+    {
+      "id": 9,
+      "category": "love",
+      "text": "A caring heart like yours is a rare and beautiful gift."
+    },
+    {
+      "id": 10,
+      "category": "sweet",
+      "text": "Something wonderful is quietly making its way toward you."
+    },
+    {
+      "id": 11,
+      "category": "success",
+      "text": "Your dedication today will become tomorrow's achievement."
+    },
+    {
+      "id": 12,
+      "category": "hope",
+      "text": "Even the smallest spark of hope can light the way forward."
+    },
+    {
+      "id": 13,
+      "category": "sweet",
+      "text": "You are more appreciated than you know."
+    },
+    {
+      "id": 14,
+      "category": "adventure",
+      "text": "A new experience will bring a fresh sense of excitement into your life."
+    },
+    {
+      "id": 15,
+      "category": "love",
+      "text": "The love you give returns to you in unexpected and beautiful ways."
+    },
+    {
+      "id": 16,
+      "category": "sweet",
+      "text": "A peaceful moment today will remind you to enjoy the journey."
+    },
+    {
+      "id": 17,
+      "category": "success",
+      "text": "Your talents are growing stronger with every challenge you overcome."
+    },
+    {
+      "id": 18,
+      "category": "hope",
+      "text": "The future is brighter than yesterday because of the choices you make today."
+    },
+    {
+      "id": 19,
+      "category": "sweet",
+      "text": "You have a wonderful way of making people feel valued."
+    },
+    {
+      "id": 20,
+      "category": "love",
+      "text": "A special connection in your life will grow even stronger."
+    },
+    {
+      "id": 21,
+      "category": "sweet",
+      "text": "Today may bring a reason to laugh, smile, or celebrate."
+    },
+    {
+      "id": 22,
+      "category": "hope",
+      "text": "Good things are closer than they appear."
+    },
+    {
+      "id": 23,
+      "category": "success",
+      "text": "Your patience and effort are creating something amazing."
+    },
+    {
+      "id": 24,
+      "category": "sweet",
+      "text": "A thoughtful gesture from you will mean more than you expect."
+    },
+    {
+      "id": 25,
+      "category": "love",
+      "text": "Your heart knows how to make ordinary days feel extraordinary."
+    },
+    {
+      "id": 26,
+      "category": "hope",
+      "text": "A fresh beginning can appear whenever you choose to believe."
+    },
+    {
+      "id": 27,
+      "category": "sweet",
+      "text": "You bring warmth and happiness wherever you go."
+    },
+    {
+      "id": 28,
+      "category": "success",
+      "text": "A goal you have been working toward is getting closer."
+    },
+    {
+      "id": 29,
+      "category": "adventure",
+      "text": "An unexpected journey may lead to an unforgettable memory."
+    },
+    {
+      "id": 30,
+      "category": "love",
+      "text": "The people who care about you are lucky to have you in their lives."
+    },
+    {
+      "id": 31,
+      "category": "sweet",
+      "text": "A moment of unexpected happiness will brighten your day."
+    },
+    {
+      "id": 32,
+      "category": "hope",
+      "text": "The dreams you carry in your heart are closer than they appear."
+    },
+    {
+      "id": 33,
+      "category": "love",
+      "text": "Your presence is a gift that makes someone's world a little better."
+    },
+    {
+      "id": 34,
+      "category": "success",
+      "text": "Your determination will open doors you never knew existed."
+    },
+    {
+      "id": 35,
+      "category": "sweet",
+      "text": "A kind word from you today may become someone's favorite memory."
+    },
+    {
+      "id": 36,
+      "category": "adventure",
+      "text": "A new path may appear when you are ready to take the next step."
+    },
+    {
+      "id": 37,
+      "category": "hope",
+      "text": "Better days are not only ahead of you, they are already beginning."
+    },
+    {
+      "id": 38,
+      "category": "love",
+      "text": "The kindness you share has a way of finding its way back to you."
+    },
+    {
+      "id": 39,
+      "category": "sweet",
+      "text": "You make ordinary moments feel a little more special."
+    },
+    {
+      "id": 40,
+      "category": "success",
+      "text": "Your efforts are creating a future you will be proud of."
+    },
+    {
+      "id": 41,
+      "category": "hope",
+      "text": "A small step today can lead to a wonderful destination tomorrow."
+    },
+    {
+      "id": 42,
+      "category": "sweet",
+      "text": "Someone will smile today because of something you do."
+    },
+    {
+      "id": 43,
+      "category": "love",
+      "text": "A caring heart always finds beautiful ways to make connections."
+    },
+    {
+      "id": 44,
+      "category": "success",
+      "text": "Your unique talents are exactly what the world needs."
+    },
+    {
+      "id": 45,
+      "category": "adventure",
+      "text": "A new memory is waiting to be created."
+    },
+    {
+      "id": 46,
+      "category": "sweet",
+      "text": "Your kindness is a quiet strength that inspires others."
+    },
+    {
+      "id": 47,
+      "category": "hope",
+      "text": "The challenges you face today are preparing you for something greater."
+    },
+    {
+      "id": 48,
+      "category": "love",
+      "text": "A special bond in your life will continue to grow stronger."
+    },
+    {
+      "id": 49,
+      "category": "sweet",
+      "text": "You deserve moments that make you laugh, smile, and feel loved."
+    },
+    {
+      "id": 50,
+      "category": "success",
+      "text": "Believe in your abilities; you are capable of amazing things."
+    },
+    {
+      "id": 51,
+      "category": "hope",
+      "text": "A new opportunity will arrive at just the right time."
+    },
+    {
+      "id": 52,
+      "category": "sweet",
+      "text": "The world is a better place because you are part of it."
+    },
+    {
+      "id": 53,
+      "category": "love",
+      "text": "Your heart has a beautiful way of making others feel cared for."
+    },
+    {
+      "id": 54,
+      "category": "success",
+      "text": "Every achievement begins with the courage to begin."
+    },
+    {
+      "id": 55,
+      "category": "adventure",
+      "text": "A little curiosity today may lead to a wonderful discovery."
+    },
+    {
+      "id": 56,
+      "category": "sweet",
+      "text": "A peaceful moment will remind you how much beauty surrounds you."
+    },
+    {
+      "id": 57,
+      "category": "hope",
+      "text": "The future is filled with possibilities waiting for your imagination."
+    },
+    {
+      "id": 58,
+      "category": "love",
+      "text": "Someone treasures the happiness you bring into their life."
+    },
+    {
+      "id": 59,
+      "category": "sweet",
+      "text": "Your laughter is a little piece of sunshine shared with others."
+    },
+    {
+      "id": 60,
+      "category": "success",
+      "text": "Your persistence will turn today's efforts into tomorrow's victories."
+    },
+    {
+      "id": 61,
+      "category": "hope",
+      "text": "A wonderful chapter of your story is about to begin."
+    },
+    {
+      "id": 62,
+      "category": "sweet",
+      "text": "The smallest acts of kindness can create the biggest smiles."
+    },
+    {
+      "id": 63,
+      "category": "love",
+      "text": "Your heart knows how to create moments worth remembering."
+    },
+    {
+      "id": 64,
+      "category": "success",
+      "text": "Trust yourself; you have overcome more than you realize."
+    },
+    {
+      "id": 65,
+      "category": "adventure",
+      "text": "An exciting possibility may be closer than you think."
+    },
+    {
+      "id": 66,
+      "category": "sweet",
+      "text": "Today is a perfect day to appreciate the little joys around you."
+    },
+    {
+      "id": 67,
+      "category": "hope",
+      "text": "Even a cloudy day can lead to a beautiful tomorrow."
+    },
+    {
+      "id": 68,
+      "category": "love",
+      "text": "The love you give makes the world warmer."
+    },
+    {
+      "id": 69,
+      "category": "success",
+      "text": "Your future self will thank you for the choices you make today."
+    },
+    {
+      "id": 70,
+      "category": "sweet",
+      "text": "A delightful surprise may find you when you least expect it."
+    },
+    {
+      "id": 71,
+      "category": "hope",
+      "text": "Your patience will soon reveal the rewards you have been waiting for."
+    },
+    {
+      "id": 72,
+      "category": "love",
+      "text": "A beautiful connection grows stronger through kindness and care."
+    },
+    {
+      "id": 73,
+      "category": "sweet",
+      "text": "You have a special gift for making people feel welcome."
+    },
+    {
+      "id": 74,
+      "category": "success",
+      "text": "Your hard work is quietly building something wonderful."
+    },
+    {
+      "id": 75,
+      "category": "adventure",
+      "text": "A fresh experience will bring excitement into your life."
+    },
+    {
+      "id": 76,
+      "category": "hope",
+      "text": "A little faith in yourself will carry you farther than you imagine."
+    },
+    {
+      "id": 77,
+      "category": "sweet",
+      "text": "Your kindness leaves footprints that others remember."
+    },
+    {
+      "id": 78,
+      "category": "love",
+      "text": "Someone feels lucky to have crossed paths with you."
+    },
+    {
+      "id": 79,
+      "category": "success",
+      "text": "Great things are built one thoughtful decision at a time."
+    },
+    {
+      "id": 80,
+      "category": "sweet",
+      "text": "A reason to celebrate may appear sooner than expected."
+    },
+    {
+      "id": 81,
+      "category": "hope",
+      "text": "Your next opportunity may come from an unexpected place."
+    },
+    {
+      "id": 82,
+      "category": "love",
+      "text": "A heart full of kindness attracts wonderful people."
+    },
+    {
+      "id": 83,
+      "category": "sweet",
+      "text": "You are a bright spot in someone's day."
+    },
+    {
+      "id": 84,
+      "category": "success",
+      "text": "Your confidence will grow with every challenge you conquer."
+    },
+    {
+      "id": 85,
+      "category": "adventure",
+      "text": "The next great memory of your life may be just around the corner."
+    },
+    {
+      "id": 86,
+      "category": "hope",
+      "text": "Something beautiful is waiting for the right moment to appear."
+    },
+    {
+      "id": 87,
+      "category": "sweet",
+      "text": "Your thoughtful nature is one of your greatest treasures."
+    },
+    {
+      "id": 88,
+      "category": "love",
+      "text": "The people who love you appreciate you more than words can say."
+    },
+    {
+      "id": 89,
+      "category": "success",
+      "text": "Your dreams become stronger every time you believe in them."
+    },
+    {
+      "id": 90,
+      "category": "sweet",
+      "text": "A small kindness today will create a lasting impact."
+    },
+    {
+      "id": 91,
+      "category": "hope",
+      "text": "Tomorrow brings another chance to create something wonderful."
+    },
+    {
+      "id": 92,
+      "category": "love",
+      "text": "Your warmth and compassion make the world feel closer."
+    },
+    {
+      "id": 93,
+      "category": "success",
+      "text": "You are closer to your goals than you realize."
+    },
+    {
+      "id": 94,
+      "category": "sweet",
+      "text": "A happy moment is waiting to find you today."
+    },
+    {
+      "id": 95,
+      "category": "adventure",
+      "text": "Follow your curiosity; it may lead somewhere magical."
+    },
+    {
+      "id": 96,
+      "category": "hope",
+      "text": "The best surprises often arrive when you keep moving forward."
+    },
+    {
+      "id": 97,
+      "category": "love",
+      "text": "Your heart has the power to turn ordinary days into cherished memories."
+    },
+    {
+      "id": 98,
+      "category": "sweet",
+      "text": "You are exactly where you need to be on your journey."
+    },
+    {
+      "id": 99,
+      "category": "success",
+      "text": "Your perseverance today creates possibilities for tomorrow."
+    },
+    {
+      "id": 100,
+      "category": "special",
+      "text": "Today is going to be great. Tomorrow will be even better."
+    },
+    {
+      "id": 101,
+      "category": "dear-special",
+      "text": "No distance is too great for a heart that truly cares."
+    },
+    {
+      "id": 102,
+      "category": "dear-special",
+      "text": "Someone is smiling today because you are part of their story."
+    },
+    {
+      "id": 103,
+      "category": "dear-special",
+      "text": "You are a rare treasure that makes ordinary days feel extraordinary."
+    },
+    {
+      "id": 104,
+      "category": "dear-special",
+      "text": "The world feels a little warmer because you are in it."
+    },
+    {
+      "id": 105,
+      "category": "dear-special",
+      "text": "Some connections are written in the stars and protected by kindness."
+    },
+    {
+      "id": 106,
+      "category": "romantic",
+      "text": "A loving heart creates beautiful memories wherever it goes."
+    },
+    {
+      "id": 107,
+      "category": "romantic",
+      "text": "The best moments are the ones shared with someone who makes you smile."
+    },
+    {
+      "id": 108,
+      "category": "romantic",
+      "text": "Love grows stronger through patience, laughter, and little acts of care."
+    },
+    {
+      "id": 109,
+      "category": "romantic",
+      "text": "Someone appreciates the little things that make you uniquely you."
+    },
+    {
+      "id": 110,
+      "category": "romantic",
+      "text": "A beautiful bond becomes stronger every time two hearts choose kindness."
+    },
+    {
+      "id": 111,
+      "category": "playful",
+      "text": "A surprise giggle is hiding somewhere in your day."
+    },
+    {
+      "id": 112,
+      "category": "playful",
+      "text": "Your future contains happiness, snacks, and possibly a little mischief."
+    },
+    {
+      "id": 113,
+      "category": "playful",
+      "text": "A tiny adventure may appear when you least expect it."
+    },
+    {
+      "id": 114,
+      "category": "playful",
+      "text": "Your smile is about to cause a little bit of happiness nearby."
+    },
+    {
+      "id": 115,
+      "category": "playful",
+      "text": "Warning: excessive cuteness may be part of your destiny."
+    },
+    {
+      "id": 116,
+      "category": "good-morning",
+      "text": "Good morning! Today is a fresh page waiting for your beautiful story."
+    },
+    {
+      "id": 117,
+      "category": "good-morning",
+      "text": "The sunrise brought a reminder that wonderful things are ahead."
+    },
+    {
+      "id": 118,
+      "category": "good-morning",
+      "text": "A new day means new chances to laugh, grow, and create memories."
+    },
+    {
+      "id": 119,
+      "category": "good-morning",
+      "text": "Your first smile today may become someone else's favorite moment."
+    },
+    {
+      "id": 120,
+      "category": "good-morning",
+      "text": "Today has been waiting patiently for someone wonderful like you."
+    },
+    {
+      "id": 121,
+      "category": "good-night",
+      "text": "Rest peacefully knowing today was better because you were here."
+    },
+    {
+      "id": 122,
+      "category": "good-night",
+      "text": "Sweet dreams. Tomorrow holds another chance for something beautiful."
+    },
+    {
+      "id": 123,
+      "category": "good-night",
+      "text": "The stars are shining a little brighter for someone special tonight."
+    },
+    {
+      "id": 124,
+      "category": "good-night",
+      "text": "Close your eyes and let tomorrow's happiness find its way to you."
+    },
+    {
+      "id": 125,
+      "category": "good-night",
+      "text": "Rest your heart. You have done enough wonderful things today."
+    },
+    {
+      "id": 126,
+      "category": "fantasy",
+      "text": "A brave heart can overcome mountains, dragons, and impossible quests."
+    },
+    {
+      "id": 127,
+      "category": "fantasy",
+      "text": "A legendary adventure begins with a single courageous step."
+    },
+    {
+      "id": 128,
+      "category": "fantasy",
+      "text": "Your inner magic grows stronger every day."
+    },
+    {
+      "id": 129,
+      "category": "fantasy",
+      "text": "A loyal companion and a kind heart can conquer any kingdom."
+    },
+    {
+      "id": 130,
+      "category": "fantasy",
+      "text": "Your story is still being written, and the next chapter will be amazing."
+    },
+    {
+      "id": 131,
+      "category": "gamer",
+      "text": "A rare opportunity is waiting to drop into your inventory."
+    },
+    {
+      "id": 132,
+      "category": "gamer",
+      "text": "Your next challenge will reward you with valuable experience."
+    },
+    {
+      "id": 133,
+      "category": "gamer",
+      "text": "A critical success is closer than you think."
+    },
+    {
+      "id": 134,
+      "category": "gamer",
+      "text": "Every mistake is just another level completed."
+    },
+    {
+      "id": 135,
+      "category": "gamer",
+      "text": "Your determination grants you a hidden bonus today."
+    },
+    {
+      "id": 136,
+      "category": "developer",
+      "text": "Your next great idea is only one creative moment away."
+    },
+    {
+      "id": 137,
+      "category": "developer",
+      "text": "A mysterious problem will soon reveal its hidden solution."
+    },
+    {
+      "id": 138,
+      "category": "developer",
+      "text": "Your code may not be perfect, but your creativity is powerful."
+    },
+    {
+      "id": 139,
+      "category": "developer",
+      "text": "A successful build is waiting in your future."
+    },
+    {
+      "id": 140,
+      "category": "developer",
+      "text": "The bug you are searching for is closer than it appears."
+    },
+    {
+      "id": 141,
+      "category": "mischief",
+      "text": "A playful little troublemaker may be planning something adorable."
+    },
+    {
+      "id": 142,
+      "category": "mischief",
+      "text": "Beware: someone charming may steal your attention today."
+    },
+    {
+      "id": 143,
+      "category": "mischief",
+      "text": "A little chaos may be exactly what your day needs."
+    },
+    {
+      "id": 144,
+      "category": "mischief",
+      "text": "A mischievous smile may appear before the day is over."
+    },
+    {
+      "id": 145,
+      "category": "mischief",
+      "text": "Something adorable is plotting its way into your happiness."
+    },
+    {
+      "id": 146,
+      "category": "birthday",
+      "text": "A wonderful new chapter begins with endless possibilities ahead."
+    },
+    {
+      "id": 147,
+      "category": "birthday",
+      "text": "Today celebrates the amazing person you are."
+    },
+    {
+      "id": 148,
+      "category": "birthday",
+      "text": "Your next year will be filled with growth, laughter, and beautiful memories."
+    },
+    {
+      "id": 149,
+      "category": "birthday",
+      "text": "A special day deserves a special person, and that person is you."
+    },
+    {
+      "id": 150,
+      "category": "birthday",
+      "text": "May your next adventure be your happiest one yet."
+    }
+  ],
+  "specialFortunes": [
+    {
+      "id": 1,
+      "occasionType": "relationship-milestone",
+      "occasion": "200-day anniversary",
+      "recurrence": "milestone",
+      "text": "200 days of laughter, memories, and moments together. Every day has made this journey more special."
+    },
+    {
+      "id": 2,
+      "occasionType": "relationship-milestone",
+      "occasion": "300-day anniversary",
+      "recurrence": "milestone",
+      "text": "300 days have passed, and the story keeps getting sweeter with every chapter."
+    },
+    {
+      "id": 3,
+      "occasionType": "relationship-milestone",
+      "occasion": "365-day anniversary",
+      "recurrence": "yearly",
+      "text": "One year of smiles, adventures, and unforgettable memories. Here is to many more beautiful years ahead."
+    },
+    {
+      "id": 4,
+      "occasionType": "relationship-milestone",
+      "occasion": "500-day anniversary",
+      "recurrence": "milestone",
+      "text": "500 days of choosing each other, supporting each other, and creating something wonderful together."
+    },
+    {
+      "id": 5,
+      "occasionType": "relationship-milestone",
+      "occasion": "1000-day anniversary",
+      "recurrence": "milestone",
+      "text": "1000 days of memories prove that the best adventures are the ones shared with someone special."
+    },
+    {
+      "id": 6,
+      "occasionType": "relationship-milestone",
+      "occasion": "day we started talking",
+      "recurrence": "yearly",
+      "text": "The day a simple conversation began a story worth remembering forever."
+    },
+    {
+      "id": 7,
+      "occasionType": "relationship-milestone",
+      "occasion": "first meeting anniversary",
+      "recurrence": "yearly",
+      "text": "Some days seem ordinary until they become the beginning of something extraordinary."
+    },
+    {
+      "id": 8,
+      "occasionType": "holiday",
+      "occasion": "Valentine's Day",
+      "date": "02-14",
+      "recurrence": "yearly",
+      "text": "Today celebrates love, but every day is special when shared with someone who makes life brighter."
+    },
+    {
+      "id": 9,
+      "occasionType": "holiday",
+      "occasion": "Chinese Valentine's Day Qixi Festival",
+      "recurrence": "yearly",
+      "text": "Like the stars that find each other across the sky, some hearts are destined to meet."
+    },
+    {
+      "id": 10,
+      "occasionType": "holiday",
+      "occasion": "Lunar New Year",
+      "recurrence": "yearly",
+      "text": "May this new year bring happiness, good fortune, health, and countless beautiful moments."
+    },
+    {
+      "id": 11,
+      "occasionType": "holiday",
+      "occasion": "Mid-Autumn Festival",
+      "recurrence": "yearly",
+      "text": "Under the same moon, hearts can feel close no matter how far apart they are."
+    },
+    {
+      "id": 12,
+      "occasionType": "holiday",
+      "occasion": "Christmas",
+      "date": "12-25",
+      "recurrence": "yearly",
+      "text": "May your Christmas be filled with warmth, laughter, love, and a little bit of magic."
+    },
+    {
+      "id": 13,
+      "occasionType": "holiday",
+      "occasion": "New Year's Day",
+      "date": "01-01",
+      "recurrence": "yearly",
+      "text": "A new year begins with new dreams, new adventures, and more memories waiting to be made."
+    },
+    {
+      "id": 14,
+      "occasionType": "holiday",
+      "occasion": "Thanksgiving",
+      "date": "11-27",
+      "recurrence": "yearly",
+      "text": "Today is a reminder to appreciate the people who make life more meaningful."
+    },
+    {
+      "id": 15,
+      "occasionType": "holiday",
+      "occasion": "Halloween",
+      "date": "10-31",
+      "recurrence": "yearly",
+      "text": "A little mystery, a little fun, and a lot of smiles are waiting for you tonight."
+    },
+    {
+      "id": 16,
+      "occasionType": "holiday",
+      "occasion": "Malaysia Independence Day",
+      "date": "08-31",
+      "recurrence": "yearly",
+      "text": "Celebrate the beauty, culture, and spirit of a wonderful nation."
+    },
+    {
+      "id": 17,
+      "occasionType": "holiday",
+      "occasion": "Malaysia Malaysia Day",
+      "date": "09-16",
+      "recurrence": "yearly",
+      "text": "Today celebrates unity, friendship, and the many stories that bring people together."
+    },
+    {
+      "id": 18,
+      "occasionType": "holiday",
+      "occasion": "America Independence Day",
+      "date": "07-04",
+      "recurrence": "yearly",
+      "text": "Celebrate freedom, happiness, and the wonderful adventures still waiting ahead."
+    },
+    {
+      "id": 19,
+      "occasionType": "holiday",
+      "occasion": "Chinese New Year Reunion",
+      "recurrence": "yearly",
+      "text": "May family, friendship, and happiness surround you like a warm celebration."
+    },
+    {
+      "id": 20,
+      "occasionType": "special",
+      "occasion": "thinking of you",
+      "recurrence": "random",
+      "text": "This fortune arrived with a simple message: someone is thinking of you and hoping you smile."
+    },
+    {
+      "id": 21,
+      "occasionType": "special",
+      "occasion": "good luck",
+      "recurrence": "random",
+      "text": "A little extra luck is following you today. Keep moving forward with confidence."
+    },
+    {
+      "id": 22,
+      "occasionType": "special",
+      "occasion": "need a smile",
+      "recurrence": "random",
+      "text": "A smile has been delivered. Please accept it immediately and share one if possible."
+    },
+    {
+      "id": 23,
+      "occasionType": "special",
+      "occasion": "distance reminder",
+      "recurrence": "random",
+      "text": "Miles may separate places, but they cannot separate hearts that care deeply."
+    },
+    {
+      "id": 24,
+      "occasionType": "special",
+      "occasion": "memory",
+      "recurrence": "random",
+      "text": "Every beautiful memory begins as a simple moment worth holding onto."
+    },
+    {
+      "id": 25,
+      "occasionType": "special",
+      "occasion": "forever",
+      "recurrence": "random",
+      "text": "Some people become part of your story in ways that time can never erase."
+    },
+    {
+      "id": 26,
+      "occasionType": "relationship-milestone",
+      "occasion": "50-day anniversary",
+      "recurrence": "milestone",
+      "text": "50 days of smiles, conversations, and memories. A beautiful story has already begun."
+    },
+    {
+      "id": 27,
+      "occasionType": "relationship-milestone",
+      "occasion": "100-day anniversary",
+      "recurrence": "milestone",
+      "text": "100 days together is a reminder that the best moments are the ones shared with someone special."
+    },
+    {
+      "id": 28,
+      "occasionType": "relationship-milestone",
+      "occasion": "150-day anniversary",
+      "recurrence": "milestone",
+      "text": "150 days of laughter and kindness have created memories worth cherishing forever."
+    },
+    {
+      "id": 29,
+      "occasionType": "relationship-milestone",
+      "occasion": "250-day anniversary",
+      "recurrence": "milestone",
+      "text": "250 days of wonderful moments, countless smiles, and a connection that keeps growing stronger."
+    },
+    {
+      "id": 30,
+      "occasionType": "relationship-milestone",
+      "occasion": "6-month anniversary",
+      "recurrence": "milestone",
+      "text": "Six months of shared memories prove that something beautiful is being built together."
+    },
+    {
+      "id": 31,
+      "occasionType": "relationship-milestone",
+      "occasion": "18-month anniversary",
+      "recurrence": "milestone",
+      "text": "A year and a half of memories, laughter, and moments that made the journey unforgettable."
+    },
+    {
+      "id": 32,
+      "occasionType": "relationship-milestone",
+      "occasion": "2-year anniversary",
+      "recurrence": "yearly",
+      "text": "Two years of choosing kindness, sharing dreams, and creating a story that keeps getting better."
+    },
+    {
+      "id": 33,
+      "occasionType": "relationship-milestone",
+      "occasion": "3-year anniversary",
+      "recurrence": "yearly",
+      "text": "Three years of memories are proof that the greatest adventures are the ones shared together."
+    },
+    {
+      "id": 34,
+      "occasionType": "relationship-milestone",
+      "occasion": "5-year anniversary",
+      "recurrence": "yearly",
+      "text": "Five years of love, laughter, and memories. May every year ahead be even more wonderful."
+    },
+    {
+      "id": 35,
+      "occasionType": "relationship-milestone",
+      "occasion": "monthly anniversary",
+      "recurrence": "monthly",
+      "text": "Another month together means another collection of moments worth remembering."
+    },
+    {
+      "id": 36,
+      "occasionType": "relationship-milestone",
+      "occasion": "first holiday together",
+      "recurrence": "milestone",
+      "text": "The first celebration together becomes the first of many beautiful traditions."
+    },
+    {
+      "id": 37,
+      "occasionType": "relationship-milestone",
+      "occasion": "first birthday celebrated together",
+      "recurrence": "milestone",
+      "text": "Celebrating someone special makes an already wonderful day even brighter."
+    },
+    {
+      "id": 38,
+      "occasionType": "relationship-milestone",
+      "occasion": "first Christmas together",
+      "recurrence": "milestone",
+      "text": "The best gifts are the memories created with someone who makes life special."
+    },
+    {
+      "id": 39,
+      "occasionType": "relationship-milestone",
+      "occasion": "first New Year together",
+      "recurrence": "milestone",
+      "text": "A new year is even more exciting when a special person is part of the journey."
+    },
+    {
+      "id": 40,
+      "occasionType": "relationship-milestone",
+      "occasion": "first Valentine's Day together",
+      "recurrence": "milestone",
+      "text": "A day celebrating love becomes unforgettable when shared with someone amazing."
+    },
+    {
+      "id": 41,
+      "occasionType": "holiday",
+      "occasion": "Dragon Boat Festival",
+      "recurrence": "yearly",
+      "text": "May this festival bring happiness, good health, and wonderful memories with those you cherish."
+    },
+    {
+      "id": 42,
+      "occasionType": "holiday",
+      "occasion": "Lantern Festival",
+      "recurrence": "yearly",
+      "text": "May your path shine brightly like lanterns lighting the night sky."
+    },
+    {
+      "id": 43,
+      "occasionType": "holiday",
+      "occasion": "Qixi Festival",
+      "recurrence": "yearly",
+      "text": "Like two stars meeting across the heavens, some connections are truly special."
+    },
+    {
+      "id": 44,
+      "occasionType": "holiday",
+      "occasion": "Chinese Valentine's Day",
+      "recurrence": "yearly",
+      "text": "Today celebrates the magic of love, devotion, and hearts that choose each other."
+    },
+    {
+      "id": 45,
+      "occasionType": "holiday",
+      "occasion": "Hari Raya Aidilfitri",
+      "recurrence": "yearly",
+      "text": "May this celebration bring peace, happiness, forgiveness, and joyful moments with family."
+    },
+    {
+      "id": 46,
+      "occasionType": "holiday",
+      "occasion": "Deepavali",
+      "recurrence": "yearly",
+      "text": "May the festival of lights bring hope, happiness, and beautiful new beginnings."
+    },
+    {
+      "id": 47,
+      "occasionType": "holiday",
+      "occasion": "Vesak Day",
+      "recurrence": "yearly",
+      "text": "May today bring peace, kindness, and moments of reflection."
+    },
+    {
+      "id": 48,
+      "occasionType": "holiday",
+      "occasion": "Labor Day",
+      "recurrence": "yearly",
+      "text": "Celebrate your achievements, your efforts, and the journey that brought you here."
+    },
+    {
+      "id": 49,
+      "occasionType": "holiday",
+      "occasion": "Mother's Day",
+      "recurrence": "yearly",
+      "text": "Today honors the love, patience, and kindness that make families stronger."
+    },
+    {
+      "id": 50,
+      "occasionType": "holiday",
+      "occasion": "Father's Day",
+      "recurrence": "yearly",
+      "text": "Today celebrates the wisdom, guidance, and love that shape our lives."
+    },
+    {
+      "id": 51,
+      "occasionType": "special",
+      "occasion": "random encouragement",
+      "recurrence": "random",
+      "text": "A reminder from the universe: you are doing better than you think."
+    },
+    {
+      "id": 52,
+      "occasionType": "special",
+      "occasion": "rough day",
+      "recurrence": "random",
+      "text": "Even difficult days end. Tomorrow brings another chance to smile."
+    },
+    {
+      "id": 53,
+      "occasionType": "special",
+      "occasion": "proud of you",
+      "recurrence": "random",
+      "text": "Someone out there is proud of the person you are becoming."
+    },
+    {
+      "id": 54,
+      "occasionType": "special",
+      "occasion": "you are loved",
+      "recurrence": "random",
+      "text": "Never forget that your existence brings happiness to someone else's world."
+    },
+    {
+      "id": 55,
+      "occasionType": "special",
+      "occasion": "magic moment",
+      "recurrence": "random",
+      "text": "A little bit of magic is hiding in today's ordinary moments."
+    }
+  ],
+  "weatherFortunes": [
+    {
+      "id": 1,
+      "weatherType": "sunny",
+      "season": "any",
+      "mood": "happy",
+      "text": "The sun is shining today, and a little extra happiness is finding its way to you."
+    },
+    {
+      "id": 2,
+      "weatherType": "sunny",
+      "season": "summer",
+      "mood": "adventure",
+      "text": "A bright day brings bright possibilities. Something wonderful may be waiting outside."
+    },
+    {
+      "id": 3,
+      "weatherType": "sunny",
+      "season": "any",
+      "mood": "encouraging",
+      "text": "Like the sunshine above you, your kindness has a way of lighting up the world."
+    },
+    {
+      "id": 4,
+      "weatherType": "sunny",
+      "season": "spring",
+      "mood": "hopeful",
+      "text": "A sunny day is nature's reminder that beautiful things are always beginning."
+    },
+    {
+      "id": 5,
+      "weatherType": "sunny",
+      "season": "any",
+      "mood": "romantic",
+      "text": "Some days are brighter simply because someone special exists in the world."
+    },
+    {
+      "id": 6,
+      "weatherType": "rain",
+      "season": "any",
+      "mood": "cozy",
+      "text": "The rain is not here to slow you down. It is here to remind you to enjoy a peaceful moment."
+    },
+    {
+      "id": 7,
+      "weatherType": "rain",
+      "season": "spring",
+      "mood": "hopeful",
+      "text": "Every raindrop helps something beautiful grow. Your dreams are growing too."
+    },
+    {
+      "id": 8,
+      "weatherType": "rain",
+      "season": "any",
+      "mood": "cozy",
+      "text": "A rainy day is perfect for warm thoughts, kind words, and happy memories."
+    },
+    {
+      "id": 9,
+      "weatherType": "rain",
+      "season": "any",
+      "mood": "romantic",
+      "text": "Some of the sweetest conversations happen while listening to the rain together."
+    },
+    {
+      "id": 10,
+      "weatherType": "rain",
+      "season": "autumn",
+      "mood": "peaceful",
+      "text": "The rain outside creates a quiet moment for your heart to rest."
+    },
+    {
+      "id": 11,
+      "weatherType": "storm",
+      "season": "any",
+      "mood": "encouraging",
+      "text": "Even the strongest storms eventually pass. Brighter skies are always ahead."
+    },
+    {
+      "id": 12,
+      "weatherType": "storm",
+      "season": "any",
+      "mood": "strong",
+      "text": "Storms reveal strength. Remember how many challenges you have already overcome."
+    },
+    {
+      "id": 13,
+      "weatherType": "storm",
+      "season": "summer",
+      "mood": "hopeful",
+      "text": "Thunder may be loud, but your courage is louder."
+    },
+    {
+      "id": 14,
+      "weatherType": "snow",
+      "season": "winter",
+      "mood": "magical",
+      "text": "Every snowflake carries a tiny reminder that the world is full of wonder."
+    },
+    {
+      "id": 15,
+      "weatherType": "snow",
+      "season": "winter",
+      "mood": "cozy",
+      "text": "A snowy day is a perfect invitation to slow down and enjoy the little things."
+    },
+    {
+      "id": 16,
+      "weatherType": "snow",
+      "season": "winter",
+      "mood": "romantic",
+      "text": "Some moments feel like magic, especially when shared with someone special."
+    },
+    {
+      "id": 17,
+      "weatherType": "snow",
+      "season": "winter",
+      "mood": "fantasy",
+      "text": "A winter wonderland awaits those who still believe in a little magic."
+    },
+    {
+      "id": 18,
+      "weatherType": "cloudy",
+      "season": "any",
+      "mood": "hopeful",
+      "text": "Clouds may cover the sky, but they can never hide the brightness within you."
+    },
+    {
+      "id": 19,
+      "weatherType": "cloudy",
+      "season": "any",
+      "mood": "peaceful",
+      "text": "A quiet sky creates space for quiet thoughts and beautiful ideas."
+    },
+    {
+      "id": 20,
+      "weatherType": "cloudy",
+      "season": "autumn",
+      "mood": "cozy",
+      "text": "A cloudy day is nature's way of saying it is okay to take things slowly."
+    },
+    {
+      "id": 21,
+      "weatherType": "windy",
+      "season": "spring",
+      "mood": "adventure",
+      "text": "The wind is carrying new possibilities your way. Be ready for something wonderful."
+    },
+    {
+      "id": 22,
+      "weatherType": "windy",
+      "season": "any",
+      "mood": "magical",
+      "text": "A gentle breeze carries whispers of adventures waiting to begin."
+    },
+    {
+      "id": 23,
+      "weatherType": "fog",
+      "season": "any",
+      "mood": "mysterious",
+      "text": "Not every path needs to be clear immediately. Sometimes discovery happens along the way."
+    },
+    {
+      "id": 24,
+      "weatherType": "fog",
+      "season": "autumn",
+      "mood": "fantasy",
+      "text": "A mysterious day calls for a brave heart and a curious spirit."
+    },
+    {
+      "id": 25,
+      "weatherType": "rainbow",
+      "season": "any",
+      "mood": "magical",
+      "text": "A rainbow is a reminder that beautiful moments often follow difficult ones."
+    }
+  ]
+}

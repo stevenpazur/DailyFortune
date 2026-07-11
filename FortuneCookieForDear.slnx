@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="DailyFortune.Application/DailyFortune.Application.csproj" />
+    <Project Path="DailyFortune.Domain/DailyFortune.Domain.csproj" />
+    <Project Path="DailyFortune.Infrastructure/DailyFortune.Infrastructure.csproj" />
+    <Project Path="DailyFortune.Shared/DailyFortune.Shared.csproj" />
+    <Project Path="DailyFortune/DailyFortune.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="DailyFortune.Tests/DailyFortune.Tests.csproj" />
+  </Folder>
+</Solution>
