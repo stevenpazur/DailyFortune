@@ -21,12 +21,12 @@
         Background="White"
         CornerRadius="90">
 
-      <Image
-          Width="128"
-          Height="128"
-          Source="{Binding CookieImage}"
-          HorizontalAlignment="Center"
-          VerticalAlignment="Center"/>
+    <TextBlock
+        Text="🥠"
+        FontSize="48"
+        Width="100"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"/>
 
     </Border>
 

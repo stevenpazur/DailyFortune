@@ -43,33 +43,35 @@ public class OpenWeatherMapService : IWeatherService
 
         var response = await http.GetAsync(url);
 
-        response.EnsureSuccessStatusCode();
-
-        var json = await response.Content.ReadAsStringAsync();
-
-        var weatherResponse =
-            JsonSerializer.Deserialize<OpenWeatherResponse>(json);
-
-        if (weatherResponse == null)
+        if (response.IsSuccessStatusCode)
         {
-            throw new Exception("Unable to parse weather response.");
+            var json = await response.Content.ReadAsStringAsync();
+
+            var weatherResponse =
+                JsonSerializer.Deserialize<OpenWeatherResponse>(json);
+
+            if (weatherResponse == null)
+            {
+                throw new Exception("Unable to parse weather response.");
+            }
+
+            return new WeatherInfo
+            {
+                City = weatherResponse.Name,
+
+                TemperatureCelsius =
+                    weatherResponse.Main.Temp,
+
+                Description =
+                    weatherResponse.Weather.FirstOrDefault()?.Description
+                    ?? "",
+
+                WeatherType =
+                    weatherCodeMapper.Map(
+                        weatherResponse.Weather.FirstOrDefault()?.Main
+                        ?? "")
+            };
         }
-
-        return new WeatherInfo
-        {
-            City = weatherResponse.Name,
-
-            TemperatureCelsius =
-                weatherResponse.Main.Temp,
-
-            Description =
-                weatherResponse.Weather.FirstOrDefault()?.Description
-                ?? "",
-
-            WeatherType =
-                weatherCodeMapper.Map(
-                    weatherResponse.Weather.FirstOrDefault()?.Main
-                    ?? "")
-        };
+        return new WeatherInfo();
     }
 }

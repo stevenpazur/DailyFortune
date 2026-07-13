@@ -1,7 +1,5 @@
-using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using DailyFortune.Application.Services;
 using DailyFortune.ViewModels;
 using DailyFortune.Views;
 using Microsoft.Extensions.DependencyInjection;

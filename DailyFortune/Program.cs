@@ -4,6 +4,7 @@ using DailyFortune.Application.Services;
 using DailyFortune.Infrastructure.Repositories;
 using DailyFortune.Infrastructure.Services;
 using DailyFortune.ViewModels;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
@@ -25,6 +26,10 @@ namespace DailyFortune
         {
             var services = new ServiceCollection();
 
+            var configuration = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json")
+                .Build();
+
             services.AddSingleton<IFortuneRepository, JsonFortuneRepository>();
             services.AddSingleton<FortuneService>();
             services.AddSingleton<FortuneSelectionService>();
@@ -33,6 +38,7 @@ namespace DailyFortune
             services.AddSingleton<ILocationService, IpLocationService>();
             services.AddSingleton<IWeatherService, OpenWeatherMapService>();
             services.AddSingleton<WeatherCodeMapper>();
+            services.AddSingleton<IConfiguration>(configuration);
 
             services.AddHttpClient(
                 "LocationClient",
