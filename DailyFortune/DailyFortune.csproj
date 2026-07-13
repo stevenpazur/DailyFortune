@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Assets\FortuneCookies\Gold\" />
+    <Folder Include="Assets\FortuneCookies\Standard\" />
     <Folder Include="Models\" />
     <AvaloniaResource Include="Assets\**" />
   </ItemGroup>
@@ -21,5 +23,12 @@
       <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
     </PackageReference>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.9" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DailyFortune.Application\DailyFortune.Application.csproj" />
+    <ProjectReference Include="..\DailyFortune.Infrastructure\DailyFortune.Infrastructure.csproj" />
   </ItemGroup>
 </Project>

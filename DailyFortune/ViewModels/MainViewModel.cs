@@ -1,10 +1,18 @@
 using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using DailyFortune.Application.Services;
+using DailyFortune.Domain.Entities;
+using System.Threading.Tasks;
 
-namespace DailyFortune.ViewModels
+namespace DailyFortune.ViewModels;
+
+public partial class MainViewModel : ObservableObject
 {
-    public partial class MainViewModel : ViewModelBase
+    public FortuneCookieViewModel Cookie { get; }
+
+    public MainViewModel(
+        FortuneCookieViewModel cookie)
     {
-        [ObservableProperty]
-        public partial string Greeting { get; set; } = "Welcome to Avalonia!";
+        Cookie = cookie;
     }
 }

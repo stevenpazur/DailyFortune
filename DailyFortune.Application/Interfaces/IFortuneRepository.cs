@@ -8,4 +8,6 @@ namespace DailyFortune.Application.Interfaces;
 public interface IFortuneRepository
 {
     List<Fortune> GetFortunes();
+    List<WeatherFortune> GetWeatherFortunes();
+    List<SpecialFortune> GetSpecialFortunes();
 }

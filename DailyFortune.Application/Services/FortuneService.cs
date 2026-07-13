@@ -6,18 +6,18 @@ namespace DailyFortune.Application.Services;
 public class FortuneService
 {
     private readonly IFortuneRepository _repository;
+    private readonly FortuneSelectionService _fortuneSelectionService;
 
-    public FortuneService(IFortuneRepository repository)
+    public FortuneService(IFortuneRepository repository, FortuneSelectionService fortuneSelectionService)
     {
         _repository = repository;
+        _fortuneSelectionService = fortuneSelectionService;
     }
 
-    public Fortune GetRandomFortune()
+    public async Task<Fortune> GetRandomFortune()
     {
-        var fortunes = _repository.GetFortunes();
-
-        return fortunes[
-            Random.Shared.Next(fortunes.Count)
-        ];
+        return await _fortuneSelectionService.GetFortuneAsync();
     }
+
+    public async Task<Fortune> GetFortuneAsync() => await _fortuneSelectionService.GetFortuneAsync();
 }

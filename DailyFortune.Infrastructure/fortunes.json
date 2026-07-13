@@ -756,6 +756,7 @@
       "id": 1,
       "occasionType": "relationship-milestone",
       "occasion": "200-day anniversary",
+      "relationshipDay": 200,
       "recurrence": "milestone",
       "text": "200 days of laughter, memories, and moments together. Every day has made this journey more special."
     },
@@ -763,6 +764,7 @@
       "id": 2,
       "occasionType": "relationship-milestone",
       "occasion": "300-day anniversary",
+      "relationshipDay": 300,
       "recurrence": "milestone",
       "text": "300 days have passed, and the story keeps getting sweeter with every chapter."
     },
@@ -770,6 +772,7 @@
       "id": 3,
       "occasionType": "relationship-milestone",
       "occasion": "365-day anniversary",
+      "relationshipDay": 365,
       "recurrence": "yearly",
       "text": "One year of smiles, adventures, and unforgettable memories. Here is to many more beautiful years ahead."
     },
@@ -777,6 +780,7 @@
       "id": 4,
       "occasionType": "relationship-milestone",
       "occasion": "500-day anniversary",
+      "relationshipDay": 500,
       "recurrence": "milestone",
       "text": "500 days of choosing each other, supporting each other, and creating something wonderful together."
     },
@@ -784,6 +788,7 @@
       "id": 5,
       "occasionType": "relationship-milestone",
       "occasion": "1000-day anniversary",
+      "relationshipDay": 1000,
       "recurrence": "milestone",
       "text": "1000 days of memories prove that the best adventures are the ones shared with someone special."
     },
