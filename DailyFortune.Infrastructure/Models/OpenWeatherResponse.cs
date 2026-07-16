@@ -30,3 +30,11 @@ public class WeatherDescription
     [JsonPropertyName("description")]
     public string Description { get; set; } = "";
 }
+
+public class OpenWeatherGeoResponse
+{
+    [JsonPropertyName("lat")]
+    public double Lat { get; set; }
+    [JsonPropertyName("lon")]
+    public double Lon { get; set; }
+}

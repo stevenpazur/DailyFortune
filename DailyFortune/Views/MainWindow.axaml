@@ -3,10 +3,68 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:views="using:DailyFortune.Views"
     xmlns:vm="using:DailyFortune.ViewModels"
+    xmlns:tray="using:Avalonia.Controls.Platform"
     x:Class="DailyFortune.Views.MainWindow"
     x:DataType="vm:MainViewModel">
 
-  <views:FortuneCookieView
-      DataContext="{Binding Cookie}" />
+  <Grid>
+
+    <ContentControl IsVisible="{Binding !ShowWeatherSetup}"
+                    Margin="0">
+      <!-- Main content -->
+      <views:FortuneCookieView
+          DataContext="{Binding Cookie}" />
+
+    </ContentControl>
+
+    <!-- Weather setup overlay -->
+    <ContentControl IsVisible="{Binding ShowWeatherSetup}"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Margin="0">
+      <views:WeatherSetupView DataContext="{Binding WeatherSetup}"/>
+    </ContentControl>
+
+    <ContentControl IsVisible="{Binding !ShowWeatherSetup}" Margin="0">
+      <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20">
+        <!-- History toggle button -->
+        <Button Command="{Binding ToggleHistoryCommand}"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Margin="20"
+                Background="Transparent"
+                BorderThickness="0">
+          <Image Width="32" Height="32" Source="avares://DailyFortune/Assets/Icons/history_book.png"/>
+        </Button>
+
+        <!-- Edit Location button -->
+        <Button Command="{Binding ToggleLocationEditorCommand}"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Margin="20"
+                Background="CornflowerBlue"
+                BorderThickness="0">
+          <TextBlock Text="📍" FontSize="24" />
+        </Button>
+      </StackPanel>
+    </ContentControl>
+
+    <!-- History panel -->
+    <ContentControl IsVisible="{Binding ShowHistory}"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Margin="20,96,0,0">
+      <views:HistoryView DataContext="{Binding History}"/>
+    </ContentControl>
+
+    <ContentControl IsVisible="{Binding !ShowWeatherSetup}" Margin="0">
+      <!-- Streak counter -->
+      <views:StreakDisplayView
+          DataContext="{Binding Streak}"
+          HorizontalAlignment="Right"
+          VerticalAlignment="Top"
+          Margin="20"/>
+    </ContentControl>
+  </Grid>
 
 </Window>

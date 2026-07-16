@@ -749,6 +749,506 @@
       "id": 150,
       "category": "birthday",
       "text": "May your next adventure be your happiest one yet."
+    },
+    {
+      "id": 151,
+      "category": "sweet",
+      "text": "You are a quiet miracle in someone's everyday life."
+    },
+    {
+      "id": 152,
+      "category": "love",
+      "text": "Your presence feels like a warm hug everyone remembers."
+    },
+    {
+      "id": 153,
+      "category": "romantic",
+      "text": "Small moments with you become the brightest memories."
+    },
+    {
+      "id": 154,
+      "category": "sweet",
+      "text": "Someone close to you is inspired by your gentle heart."
+    },
+    {
+      "id": 155,
+      "category": "hope",
+      "text": "New joys are quietly arranging themselves in your future."
+    },
+    {
+      "id": 156,
+      "category": "good-morning",
+      "text": "Today will bring a tiny surprise that makes your day sweeter."
+    },
+    {
+      "id": 157,
+      "category": "good-night",
+      "text": "Rest easy; tomorrow brings more reasons to smile."
+    },
+    {
+      "id": 158,
+      "category": "playful",
+      "text": "A little mischief and a lot of joy are headed your way."
+    },
+    {
+      "id": 159,
+      "category": "sweet",
+      "text": "Kindness follows you like sunlight follows morning."
+    },
+    {
+      "id": 160,
+      "category": "love",
+      "text": "The comfort you give others returns to you tenfold."
+    },
+    {
+      "id": 161,
+      "category": "dear-special",
+      "text": "Distance means nothing when someone holds you in their thoughts."
+    },
+    {
+      "id": 162,
+      "category": "romantic",
+      "text": "Laughter shared with someone you care about becomes a treasure."
+    },
+    {
+      "id": 163,
+      "category": "hope",
+      "text": "A gentle wind of possibility is about to breeze through your plans."
+    },
+    {
+      "id": 164,
+      "category": "sweet",
+      "text": "You make ordinary days feel like little celebrations."
+    },
+    {
+      "id": 165,
+      "category": "success",
+      "text": "The seeds you planted with care are beginning to show green shoots."
+    },
+    {
+      "id": 166,
+      "category": "adventure",
+      "text": "A simple choice today could lead to a fond new memory."
+    },
+    {
+      "id": 167,
+      "category": "sweet",
+      "text": "Someone's day will be brighter because you smiled at them."
+    },
+    {
+      "id": 168,
+      "category": "love",
+      "text": "The warmth you carry makes any place feel like home."
+    },
+    {
+      "id": 169,
+      "category": "playful",
+      "text": "Unexpected giggles are practicing their appearance for you."
+    },
+    {
+      "id": 170,
+      "category": "good-morning",
+      "text": "A soft sunrise is arranging a peaceful start just for you."
+    },
+    {
+      "id": 171,
+      "category": "good-night",
+      "text": "May your dreams carry the same warmth you give others."
+    },
+    {
+      "id": 172,
+      "category": "sweet",
+      "text": "You are doing more good than you are keeping track of."
+    },
+    {
+      "id": 173,
+      "category": "hope",
+      "text": "A hopeful turn is ready to surprise you in the coming days."
+    },
+    {
+      "id": 174,
+      "category": "romantic",
+      "text": "A quiet moment shared becomes the favorite story of your week."
+    },
+    {
+      "id": 175,
+      "category": "dear-special",
+      "text": "Someone keeps a small, happy memory of you that warms their day."
+    },
+    {
+      "id": 176,
+      "category": "sweet",
+      "text": "Your thoughtfulness is a small light for those around you."
+    },
+    {
+      "id": 177,
+      "category": "success",
+      "text": "A little persistence today will become pride tomorrow."
+    },
+    {
+      "id": 178,
+      "category": "adventure",
+      "text": "Curiosity is preparing a pleasant surprise for you."
+    },
+    {
+      "id": 179,
+      "category": "playful",
+      "text": "Someone nearby is about to do something delightfully silly."
+    },
+    {
+      "id": 180,
+      "category": "sweet",
+      "text": "A small kindness from you will be remembered with a smile."
+    },
+    {
+      "id": 181,
+      "category": "love",
+      "text": "You add a special kind of beauty to ordinary days."
+    },
+    {
+      "id": 182,
+      "category": "good-morning",
+      "text": "Today is ready to surprise you with a gentle, happy moment."
+    },
+    {
+      "id": 183,
+      "category": "good-night",
+      "text": "Let go of today's worries; tomorrow will bring fresh comfort."
+    },
+    {
+      "id": 184,
+      "category": "hope",
+      "text": "An unexpected kind word will steer your day toward joy."
+    },
+    {
+      "id": 185,
+      "category": "romantic",
+      "text": "Every little gesture you make writes a sweeter story between hearts."
+    },
+    {
+      "id": 186,
+      "category": "dear-special",
+      "text": "A soft memory of you will bring comfort to someone today."
+    },
+    {
+      "id": 187,
+      "category": "sweet",
+      "text": "The way you listen makes the people you love feel understood."
+    },
+    {
+      "id": 188,
+      "category": "success",
+      "text": "Small consistency will build something impressive before long."
+    },
+    {
+      "id": 189,
+      "category": "adventure",
+      "text": "A tiny detour today could become tomorrow's favorite story."
+    },
+    {
+      "id": 190,
+      "category": "playful",
+      "text": "A surprise treat may appear when you least expect it."
+    },
+    {
+      "id": 191,
+      "category": "sweet",
+      "text": "Your laugh is quietly making someone else's day better."
+    },
+    {
+      "id": 192,
+      "category": "love",
+      "text": "You are more cherished than you give yourself credit for."
+    },
+    {
+      "id": 193,
+      "category": "good-morning",
+      "text": "Wake with hope; the day has a lovely surprise lined up."
+    },
+    {
+      "id": 194,
+      "category": "good-night",
+      "text": "May your sleep be gentle and your morning full of light."
+    },
+    {
+      "id": 195,
+      "category": "hope",
+      "text": "A small step today will feel like a giant leap soon."
+    },
+    {
+      "id": 196,
+      "category": "romantic",
+      "text": "Shared smiles today will become favorite memories tomorrow."
+    },
+    {
+      "id": 197,
+      "category": "dear-special",
+      "text": "A note, a call, or a thought from you will mean more than you know."
+    },
+    {
+      "id": 198,
+      "category": "sweet",
+      "text": "A gentle compliment from you could light someone's whole week."
+    },
+    {
+      "id": 199,
+      "category": "success",
+      "text": "A steady effort now will unlock an unexpected reward later."
+    },
+    {
+      "id": 200,
+      "category": "adventure",
+      "text": "A new little adventure is preparing to meet you."
+    },
+    {
+      "id": 201,
+      "category": "playful",
+      "text": "A silly idea will spark a real laugh soon."
+    },
+    {
+      "id": 202,
+      "category": "sweet",
+      "text": "You are a calm harbor for those who know you."
+    },
+    {
+      "id": 203,
+      "category": "love",
+      "text": "The love you share creates a warm and lasting glow."
+    },
+    {
+      "id": 204,
+      "category": "good-morning",
+      "text": "A gentle hello today will return as a bright smile later."
+    },
+    {
+      "id": 205,
+      "category": "good-night",
+      "text": "The night holds peace for a heart as kind as yours."
+    },
+    {
+      "id": 206,
+      "category": "hope",
+      "text": "Unexpected kindness will open a door you didn't know existed."
+    },
+    {
+      "id": 207,
+      "category": "romantic",
+      "text": "A soft look across the room will feel like a secret promise."
+    },
+    {
+      "id": 208,
+      "category": "dear-special",
+      "text": "Someone keeps a warm memory of you close to their heart."
+    },
+    {
+      "id": 209,
+      "category": "sweet",
+      "text": "Your little acts of care become big parts of someone's happiness."
+    },
+    {
+      "id": 210,
+      "category": "success",
+      "text": "One kind choice today will ripple into several good tomorrows."
+    },
+    {
+      "id": 211,
+      "category": "adventure",
+      "text": "A short walk may turn into a wonderful new discovery."
+    },
+    {
+      "id": 212,
+      "category": "playful",
+      "text": "A tiny surprise is practicing its timing just for you."
+    },
+    {
+      "id": 213,
+      "category": "sweet",
+      "text": "The way you care is quietly shaping beautiful days for others."
+    },
+    {
+      "id": 214,
+      "category": "love",
+      "text": "A kindness you give will become someone's favorite memory."
+    },
+    {
+      "id": 215,
+      "category": "good-morning",
+      "text": "Your morning smile will set the tone for a lovely day."
+    },
+    {
+      "id": 216,
+      "category": "good-night",
+      "text": "Sleep knowing you made at least one day better for someone."
+    },
+    {
+      "id": 217,
+      "category": "hope",
+      "text": "A small hope you hold will grow into a joyful surprise."
+    },
+    {
+      "id": 218,
+      "category": "romantic",
+      "text": "A hand to hold today will feel like a promise for tomorrow."
+    },
+    {
+      "id": 219,
+      "category": "dear-special",
+      "text": "A soft memory of a shared laugh will warm someone's day."
+    },
+    {
+      "id": 220,
+      "category": "sweet",
+      "text": "You make ordinary moments feel like little gifts."
+    },
+    {
+      "id": 221,
+      "category": "success",
+      "text": "The effort you put in quietly builds a bright future."
+    },
+    {
+      "id": 222,
+      "category": "adventure",
+      "text": "A small, brave choice today will lead to a fun memory."
+    },
+    {
+      "id": 223,
+      "category": "playful",
+      "text": "A little laugh is about to catch you by surprise."
+    },
+    {
+      "id": 224,
+      "category": "sweet",
+      "text": "Someone is remembering your kindness with a grateful heart."
+    },
+    {
+      "id": 225,
+      "category": "love",
+      "text": "Your love makes ordinary days feel extraordinary."
+    },
+    {
+      "id": 226,
+      "category": "good-morning",
+      "text": "Today holds a gentle surprise tailored just for you."
+    },
+    {
+      "id": 227,
+      "category": "good-night",
+      "text": "Let peaceful thoughts carry you into a lovely sleep."
+    },
+    {
+      "id": 228,
+      "category": "hope",
+      "text": "A small step you take now will bring a welcome change soon."
+    },
+    {
+      "id": 229,
+      "category": "romantic",
+      "text": "A soft word will resonate in someone's heart all day."
+    },
+    {
+      "id": 230,
+      "category": "dear-special",
+      "text": "A memory of you brings a smile at an unexpected time."
+    },
+    {
+      "id": 231,
+      "category": "sweet",
+      "text": "Your presence is like a calm sunrise for those who know you."
+    },
+    {
+      "id": 232,
+      "category": "success",
+      "text": "Patient effort will soon reward you in a small, meaningful way."
+    },
+    {
+      "id": 233,
+      "category": "adventure",
+      "text": "A short detour will gift you a lovely new perspective."
+    },
+    {
+      "id": 234,
+      "category": "playful",
+      "text": "A playful idea will turn an ordinary moment into a fun memory."
+    },
+    {
+      "id": 235,
+      "category": "sweet",
+      "text": "You share a warmth that comforts people without effort."
+    },
+    {
+      "id": 236,
+      "category": "love",
+      "text": "Someone close holds a quiet gratitude for your care."
+    },
+    {
+      "id": 237,
+      "category": "good-morning",
+      "text": "A calm start will open the door to a surprisingly good day."
+    },
+    {
+      "id": 238,
+      "category": "good-night",
+      "text": "May the night bring rest and small, kind dreams."
+    },
+    {
+      "id": 239,
+      "category": "hope",
+      "text": "A hopeful message will find you when you need it most."
+    },
+    {
+      "id": 240,
+      "category": "romantic",
+      "text": "A tender moment will become a favorite memory soon."
+    },
+    {
+      "id": 241,
+      "category": "dear-special",
+      "text": "A shared joke will become a private treasure between two hearts."
+    },
+    {
+      "id": 242,
+      "category": "sweet",
+      "text": "Your thoughtfulness is the kind of magic people remember."
+    },
+    {
+      "id": 243,
+      "category": "success",
+      "text": "Each small win adds up to a big, beautiful change."
+    },
+    {
+      "id": 244,
+      "category": "adventure",
+      "text": "A new idea will lead you toward a pleasant surprise."
+    },
+    {
+      "id": 245,
+      "category": "playful",
+      "text": "A dash of silliness will brighten an otherwise normal day."
+    },
+    {
+      "id": 246,
+      "category": "sweet",
+      "text": "Someone will remember your kindness with a warm smile."
+    },
+    {
+      "id": 247,
+      "category": "love",
+      "text": "Love grows in gentle ways, and yours is flourishing beautifully."
+    },
+    {
+      "id": 248,
+      "category": "good-morning",
+      "text": "The morning offers a simple, joyful surprise just for you."
+    },
+    {
+      "id": 249,
+      "category": "good-night",
+      "text": "May your night be calm and your dreams carry a soft smile."
+    },
+    {
+      "id": 250,
+      "category": "hope",
+      "text": "A quiet hope will grow into a bright, happy reality before long."
     }
   ],
   "specialFortunes": [

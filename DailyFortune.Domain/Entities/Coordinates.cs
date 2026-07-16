@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 
 namespace DailyFortune.Domain.Entities;
 
@@ -15,6 +12,13 @@ public class Coordinates
 
     [JsonPropertyName("city")]
     public string City { get; init; }
+
+    [JsonPropertyName("region_code")]
+    public string RegionCode { get; set; }
+
+    [JsonPropertyName("country_code")]
+    public string CountryCode { get; set; }
+
 
     public bool IsNotNull() => Latitude != 0 && Longitude != 0 && City != null;
 }

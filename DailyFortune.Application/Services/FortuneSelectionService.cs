@@ -10,11 +10,13 @@ public class FortuneSelectionService
 {
     private readonly IWeatherService _weatherService;
     private readonly IFortuneRepository _fortuneRepository;
+    private readonly IStreakService _streakService;
 
-    public FortuneSelectionService(IWeatherService weatherService, IFortuneRepository fortuneRepository)
+    public FortuneSelectionService(IWeatherService weatherService, IFortuneRepository fortuneRepository, IStreakService streakService)
     {
         _weatherService = weatherService;
         _fortuneRepository = fortuneRepository;
+        _streakService = streakService;
     }
 
     public async Task<Fortune> GetFortuneAsync()
@@ -91,29 +93,54 @@ public class FortuneSelectionService
 
     private Fortune RandomSpecialFortune(List<SpecialFortune> specialFortunes)
     {
-        var selectedSpecialFortune = specialFortunes.Cast<Fortune>().ToArray()[
-            Random.Shared.Next(specialFortunes.Count)
-        ];
+        // Try up to 3 times to find a special fortune not already recorded in history
+        Fortune? candidate = null;
+        for (int attempt = 0; attempt < 3; attempt++)
+        {
+            var selected = specialFortunes[Random.Shared.Next(specialFortunes.Count)];
+            if (!_streakService.HasFortuneBeenOpened(selected))
+            {
+                candidate = selected;
+                break;
+            }
+            candidate = selected; // keep last selected if all attempts fail
+        }
 
-        return selectedSpecialFortune;
+        return candidate!;
     }
 
     private Fortune RandomWeatherFortune(List<WeatherFortune> weatherFortunes)
     {
-        var selectedWeatherFortune = weatherFortunes.Cast<Fortune>().ToArray()[
-            Random.Shared.Next(weatherFortunes.Count)
-        ];
+        Fortune? candidate = null;
+        for (int attempt = 0; attempt < 3; attempt++)
+        {
+            var selected = weatherFortunes[Random.Shared.Next(weatherFortunes.Count)];
+            if (!_streakService.HasFortuneBeenOpened(selected))
+            {
+                candidate = selected;
+                break;
+            }
+            candidate = selected;
+        }
 
-        return selectedWeatherFortune;
+        return candidate!;
     }
 
     private Fortune RandomGeneralFortune(List<Fortune> fortunes)
     {
-        var selectedGeneralFortune = fortunes[
-            Random.Shared.Next(fortunes.Count)
-        ];
+        Fortune? candidate = null;
+        for (int attempt = 0; attempt < 3; attempt++)
+        {
+            var selected = fortunes[Random.Shared.Next(fortunes.Count)];
+            if (!_streakService.HasFortuneBeenOpened(selected))
+            {
+                candidate = selected;
+                break;
+            }
+            candidate = selected;
+        }
 
-        return selectedGeneralFortune;
+        return candidate!;
     }
 
     private static double GetWeatherFortuneChance(WeatherType weather)

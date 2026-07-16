@@ -1,0 +1,52 @@
+<UserControl
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="using:DailyFortune.ViewModels"
+    x:Class="DailyFortune.Views.StreakDisplayView"
+    x:DataType="vm:StreakDisplayViewModel">
+
+  <Border
+      CornerRadius="16"
+      Padding="12"
+      Margin="8">
+
+    <Border.Background>
+      <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#FFF6D365" Offset="0"/>
+        <GradientStop Color="#FFFFA770" Offset="1"/>
+      </LinearGradientBrush>
+    </Border.Background>
+
+    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="12">
+
+      <!-- Icon -->
+      <Border Width="56" Height="56" CornerRadius="28" Background="#FFFFFF88" VerticalAlignment="Center">
+        <TextBlock Text="🔥" FontSize="28" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+      </Border>
+
+      <!-- Streak number and label -->
+      <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+        <TextBlock Text="{Binding CurrentStreak}" FontSize="36" FontWeight="Bold" Foreground="#222"/>
+        <TextBlock Text="DAY STREAK" FontSize="12" Foreground="#333"/>
+      </StackPanel>
+
+      <!-- Spacer -->
+      <StackPanel Width="16"/>
+
+      <!-- Mini stats -->
+      <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Right">
+        <Border Background="#FFFFFF66" CornerRadius="8" Padding="6" HorizontalAlignment="Right">
+          <StackPanel Orientation="Horizontal" Spacing="6">
+            <TextBlock Text="🏆" FontSize="14" VerticalAlignment="Center"/>
+            <TextBlock Text="{Binding LongestStreak}" FontSize="14" VerticalAlignment="Center"/>
+          </StackPanel>
+        </Border>
+
+        <TextBlock Text="{Binding LastOpenedDate, StringFormat='Last: {0:MMM d}'}" FontSize="10" Foreground="#222" HorizontalAlignment="Right" Margin="0,6,0,0"/>
+      </StackPanel>
+
+    </StackPanel>
+
+  </Border>
+
+</UserControl>

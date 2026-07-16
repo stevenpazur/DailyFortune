@@ -21,26 +21,51 @@
         Background="White"
         CornerRadius="90">
 
-    <TextBlock
-        Text="🥠"
-        FontSize="48"
-        Width="100"
-        HorizontalAlignment="Center"
-        VerticalAlignment="Center"/>
+        <!-- Grid holds the interactive button and a still opened image overlay -->
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+
+          <!-- Button shown during reset/interactive state; disabled when CanOpen is false -->
+          <Button
+            Command="{Binding OpenCookieCommand}"
+            Background="Transparent"
+            Cursor="Hand"
+            BorderThickness="0"
+            Padding="0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            IsEnabled="{Binding CanOpen}">
+            <Image
+                Width="128"
+                Height="128"
+                Source="{Binding CookieImage}">
+
+              <Image.RenderTransform>
+                <RotateTransform
+                    Angle="{Binding CookieRotation}"/>
+              </Image.RenderTransform>
+
+            </Image>
+          </Button>
+
+          <!-- Static opened image that appears when cookie has been opened -->
+          <Image
+              Width="128"
+              Height="128"
+              Source="{Binding CookieImage}"
+              IsVisible="{Binding IsOpened}"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Center"/>
+
+        </Grid>
 
     </Border>
 
     <TextBlock
-        Text="{Binding CurrentFortune.Text}"
+        Text="{Binding FortuneText}"
         FontSize="20"
         Width="350"
         TextWrapping="Wrap"
         TextAlignment="Center"/>
-
-    <Button
-        Content="Open Cookie"
-        Command="{Binding OpenCookieCommand}"
-        FontSize="18"/>
 
   </StackPanel>
 

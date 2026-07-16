@@ -1,11 +1,36 @@
 <Application xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              x:Class="DailyFortune.App"
-             xmlns:local="using:DailyFortune"
-             RequestedThemeVariant="Default">
-             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
+             xmlns:app="using:DailyFortune"
+             x:DataType="app:App">
 
     <Application.Styles>
         <FluentTheme />
     </Application.Styles>
+
+  <TrayIcon.Icons>
+    <TrayIcons>
+
+      <TrayIcon 
+          ToolTipText="Daily Fortune"
+          Icon="/Assets/App.ico">
+
+        <TrayIcon.Menu>
+          <NativeMenu>
+
+            <NativeMenuItem Header="Open Daily Fortune"
+                            Command="{Binding OpenWindowCommand}" />
+
+            <NativeMenuItemSeparator />
+
+            <NativeMenuItem Header="Exit"
+                            Command="{Binding ExitCommand}" />
+
+          </NativeMenu>
+        </TrayIcon.Menu>
+
+      </TrayIcon>
+
+    </TrayIcons>
+  </TrayIcon.Icons>
 </Application>

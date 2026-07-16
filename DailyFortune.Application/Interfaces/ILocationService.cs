@@ -7,5 +7,7 @@ namespace DailyFortune.Application.Interfaces;
 
 public interface ILocationService
 {
-    Task<Coordinates> GetCoordinatesAsync();
+    Task<Coordinates?> GetCoordinatesAsync();
+    Task<Coordinates?> GetLocationByCityStateCountryAsync(string city, string state, string country);
+    Task<Coordinates?> GetIpLocation();
 }

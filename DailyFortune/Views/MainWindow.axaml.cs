@@ -7,6 +7,12 @@ namespace DailyFortune.Views
         public MainWindow()
         {
             InitializeComponent();
+
+            Closing += (_, e) =>
+            {
+                e.Cancel = true;
+                Hide();
+            };
         }
     }
 }

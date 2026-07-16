@@ -10,17 +10,20 @@ public class OpenWeatherMapService : IWeatherService
 {
     private readonly IHttpClientFactory httpClientFactory;
     private readonly ILocationService locationService;
+    private readonly ISettingsService settingsService;
     private readonly WeatherCodeMapper weatherCodeMapper;
     private readonly string apiKey;
 
     public OpenWeatherMapService(
         IHttpClientFactory httpClientFactory,
         ILocationService locationService,
+        ISettingsService settingsService,
         WeatherCodeMapper weatherCodeMapper,
         IConfiguration config)
     {
         this.httpClientFactory = httpClientFactory;
         this.locationService = locationService;
+        this.settingsService = settingsService;
         this.weatherCodeMapper = weatherCodeMapper;
         apiKey = config["OpenWeatherMap:ApiKey"] 
             ?? throw new ArgumentNullException("OpenWeatherMap:ApiKey");
@@ -29,7 +32,16 @@ public class OpenWeatherMapService : IWeatherService
     public async Task<WeatherInfo> GetCurrentWeatherAsync()
     {
         // 1. Get user's location
-        var coordinates = await locationService.GetCoordinatesAsync();
+        var settings = settingsService.GetSettings();
+        if (settings == null) return new WeatherInfo();
+        var coordinates = new Coordinates
+        {
+            Latitude = settings.LocationInfo.Latitude,
+            Longitude = settings.LocationInfo.Longitude,
+            City = settings.LocationInfo.City,
+            RegionCode = settings.LocationInfo.RegionCode,
+            CountryCode = settings.LocationInfo.CountryCode
+        };
 
         // 2. Call OpenWeather
         var http = httpClientFactory.CreateClient("WeatherClient");

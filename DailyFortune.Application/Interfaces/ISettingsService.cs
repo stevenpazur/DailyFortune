@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using DailyFortune.Domain.Entities;
 
 namespace DailyFortune.Application.Interfaces
 {
-    internal interface ISettingsService
+    public interface ISettingsService
     {
+        public AppSettings GetSettings();
+        public void UpdateSettings(AppSettings settings);
     }
 }

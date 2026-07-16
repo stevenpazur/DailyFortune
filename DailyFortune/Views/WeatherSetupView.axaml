@@ -1,0 +1,85 @@
+<UserControl
+	xmlns="https://github.com/avaloniaui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:vm="using:DailyFortune.ViewModels"
+	x:Class="DailyFortune.Views.WeatherSetupView"
+	x:DataType="vm:WeatherSetupViewModel"
+	Background="Transparent">
+
+  <Border CornerRadius="16" Width="480" Opacity="0.98">
+    <Border.Background>
+      <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#FFF6D365" Offset="0"/>
+        <GradientStop Color="#FFFFA770" Offset="1"/>
+      </LinearGradientBrush>
+    </Border.Background>
+
+    <Border Padding="24">
+      <StackPanel Spacing="20">
+        <!-- Header -->
+        <StackPanel Spacing="8">
+          <TextBlock Text="🌍 Weather Setup" FontSize="28" FontWeight="Bold" Foreground="#222"/>
+          <TextBlock Text="Help us customize your daily fortune experience" FontSize="14" Foreground="#555"/>
+        </StackPanel>
+
+        <!-- Use Current Location Button -->
+        <Border CornerRadius="12" Padding="12" Background="#FFFFFF99" BorderBrush="#FFF" BorderThickness="2">
+          <Button Command="{Binding UseCurrentLocationCommand}" Background="Transparent" BorderThickness="0" Cursor="Hand">
+            <StackPanel Orientation="Horizontal" Spacing="12">
+              <TextBlock Text="📍" FontSize="24"/>
+              <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                <TextBlock Text="Use My Current Location" FontSize="16" FontWeight="SemiBold" Foreground="#222"/>
+                <TextBlock Text="Auto-detect your location" FontSize="12" Foreground="#666"/>
+              </StackPanel>
+            </StackPanel>
+          </Button>
+        </Border>
+
+        <!-- Divider -->
+        <TextBlock Text="OR" HorizontalAlignment="Center" FontSize="12" Foreground="#777" FontWeight="SemiBold"/>
+
+        <!-- Manual Entry Section -->
+        <StackPanel Spacing="12">
+          <TextBlock Text="Enter your location manually:" FontSize="14" FontWeight="SemiBold" Foreground="#222"/>
+
+          <!-- City Input -->
+          <StackPanel Spacing="4">
+            <TextBlock Text="City" FontSize="12" Foreground="#666"/>
+            <TextBox Text="{Binding City, Mode=TwoWay}" Watermark="e.g., New York" Padding="8"/>
+          </StackPanel>
+
+          <!-- Region/State Input -->
+          <StackPanel Spacing="4">
+            <TextBlock Text="Region/State (optional)" FontSize="12" Foreground="#666"/>
+            <TextBox Text="{Binding RegionCode, Mode=TwoWay}" Watermark="e.g., NY" Padding="8"/>
+          </StackPanel>
+
+          <!-- Country Input -->
+          <StackPanel Spacing="4">
+            <TextBlock Text="Country Code (optional)" FontSize="12" Foreground="#666"/>
+            <TextBox Text="{Binding CountryCode, Mode=TwoWay}" Watermark="e.g., US" Padding="8"/>
+          </StackPanel>
+
+          <!-- Validate Button -->
+          <Button Command="{Binding GetLocationByCityStateCountryCommand}" HorizontalAlignment="Stretch" Padding="10">
+            <StackPanel Orientation="Horizontal" Spacing="8" HorizontalAlignment="Center">
+              <TextBlock Text="✓" FontSize="16"/>
+              <TextBlock Text="Validate Location" FontSize="14"/>
+            </StackPanel>
+          </Button>
+        </StackPanel>
+
+        <!-- Continue Button -->
+        <ContentControl IsVisible="{Binding CanContinue}">
+          <Button Command="{Binding ContinueCommand}" HorizontalAlignment="Stretch" Padding="12" Background="#FFF" Foreground="#222" FontSize="14" FontWeight="SemiBold">
+            <StackPanel Orientation="Horizontal" Spacing="8" HorizontalAlignment="Center">
+              <TextBlock Text="🎉"/>
+              <TextBlock Text="Continue to Daily Fortune"/>
+            </StackPanel>
+          </Button>
+        </ContentControl>
+      </StackPanel>
+    </Border>
+  </Border>
+
+</UserControl>
